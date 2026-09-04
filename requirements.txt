@@ -4,5 +4,3 @@ requests
 beautifulsoup4
 finance-datareader
 matplotlib
-koreanize-matplotlib
-
