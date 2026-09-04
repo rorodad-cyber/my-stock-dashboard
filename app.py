@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import requests
 import streamlit as st
-import koreanize_matplotlib # 📌 폰트 깨짐 방지 마법 패키지 추가
+import matplotlib.pyplot as plt
 
 warnings.filterwarnings('ignore')
 
-# 폰트 설정 (이 부분 수정)
+# 폰트 설정 (Streamlit Cloud 전용 나눔고딕)
+plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
-
 
 # ==========================================
 # 1. 데이터 크롤링 함수들 (자동 인코딩 감지 적용)
