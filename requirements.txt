@@ -1,6 +1,8 @@
 streamlit
 pandas
-requests
-beautifulsoup4
-finance-datareader
+numpy
 matplotlib
+beautifulsoup4
+requests
+finance-datareader
+lxml
